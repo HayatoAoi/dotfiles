@@ -1,7 +1,9 @@
 #+TITLE: dotfiles
 
+This is dotfiles.
+
 * Overview
-  This is dotfiles.
+
   Some configuration files are here.
    + shell(=.bashrc=, =.bash_profile=, =.inputrc=...)
    + keymaps(=.Xmodmap=, =*.map=...)
