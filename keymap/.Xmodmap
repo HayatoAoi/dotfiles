@@ -1,8 +1,8 @@
-## file:   .Xmodmap
-## brief:  X11 Keymap for jp109 
-## author: HayatoAoi
+!! file:   .Xmodmap
+!! brief:  X11 Keymap for jp109 
+!! author: HayatoAoi
 
-## CapsLock -> Control
+!! CapsLock -> Control
 clear lock
 keycode  66 = Control_L NoSymbol Control_L NoSymbol
 add control = Control_L
