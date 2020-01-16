@@ -1,0 +1,29 @@
+## file:  .inputrc
+## brief:  bash input configure
+## author: HayatoAoi
+#
+## How to set
+## 1. Create symlink
+## ln -s /home/User/Dropbox/conf/bash/.inputrc /home/User/.inputrc
+#
+## 2. Loading cofig file
+## bind -f /home/User/.inputrc
+
+$ if Bash
+
+# cursor
+"\C-j": "\C-b"
+"\C-l": "\C-f"
+"\C-u": "\C-a"
+"\C-o": "\C-e"
+"\e\C-j": backward-word
+# "\e\C-j": "\eb"
+"\e\C-l": "\ef"
+
+# history
+# "\C-i": "\C-p"  # Invalid "Tab"s complement
+# "\C-k": "\C-n"
+
+# "\C-s": "\C-r"
+
+$endif
