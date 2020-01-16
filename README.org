@@ -1,12 +1,31 @@
 #+TITLE: dotfiles
+#+AUTHOR: HayatoAoi
 
 This is dotfiles.
 
 * Overview
-
   Some configuration files are here.
-   + shell(=.bashrc=, =.bash_profile=, =.inputrc=...)
-   + keymaps(=.Xmodmap=, =*.map=...)
+   + Shell(=.bashrc=, =.bash_profile=, =.inputrc=...)
+   + Keymaps(=.Xmodmap=, =*.map=...)
    + Systems(=pacman.conf=...)
    + Applications(=.latexmkrc=, =.emacs.d=...)
 
+** Shell
+   Bash config files
+   + =.bashrc= :: applied when starting interactive mode
+   + =.bash_profile= :: applied at login only
+   + =.inputrc= :: keybindings
+
+** Keymaps
+   Keymaps of X11 and virtual console.
+   + =.Xmodmap= :: X11 keymap 
+   + =*.map= :: Virtual console keymap
+   
+** Systems
+   Config in a system.
+   + =pacman.conf= :: =pacman= is package manager in Arch Linux
+
+** Applications
+   Config of some applications
+   + =.latexmkrc= :: Compilation tool of LaTeX.
+   + =llpp.conf= :: llpp is document viewer.
