@@ -18,7 +18,9 @@ alias nwemacs='emacsclient -nw'
 ## prompt
 ## 0:normal, 1:bold, 2:dark, 3:italic, 4:underline, 5:, 6:, 7:backgroud, 8:nothing, 9:cancel,
 ## 29:white, 30:black, 31:red, 32:green, 33:yellow, 34:blue, 35:magenta, 36:cyan
-## 
+##
+## https://qiita.com/Hiroki_lzh/items/d33184cf5ac9ec92c3a6
+##
 PS1='\[\e[1;32m\]\u\[\e[1;32m\]@\[\e[1;32m\]\h \W \n\[\e[1;32m\]\$\[\e[m\] '    # user
 # PS1='\[\e[1;31m\]\u\[\e[1;32m\]@\[\e[1;32m\]\h \w \n\[\e[1;31m\]\$\[\e[m\] '  # root
 # PS1='[\u@\h \W]\$ '  # default
