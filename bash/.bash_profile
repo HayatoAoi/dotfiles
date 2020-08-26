@@ -5,10 +5,10 @@
 [[ -f ~/.bashrc ]] && . ~/.bashrc
 
 ## uim configure
-export GTK_IM_MODULE=uim
-export XMODIFIERS=@im=uim
-export QT_IM_MODULE=uim
-uim-xim &
+# export GTK_IM_MODULE=uim
+# export XMODIFIERS=@im=uim
+# export QT_IM_MODULE=uim
+# uim-xim &
 
 ## xmodmap
 xmodmap .Xmodmap
