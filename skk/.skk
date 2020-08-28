@@ -1,0 +1,18 @@
+;; ddskk configure file
+
+;; completion
+(setq skk-comp-circulate t)
+(setq skk-try-completion-char 9)
+(setq skk-next-completion-char 14)
+(setq skk-previous-completion-char 16)
+
+;; dcomp
+(setq skk-dcomp-activate t)
+(setq skk-dcomp-multiple-activate t)
+(setq skk-dcomp-multiple 7)
+
+;; candidate
+(setq skk-show-inline t)
+
+;; 変換モードでのReturn
+(setq skk-egg-like-newline t)
