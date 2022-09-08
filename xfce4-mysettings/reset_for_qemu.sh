@@ -16,6 +16,7 @@ xfconf-query -c $kbdshrt -p "/xfwm4/custom/<Alt>F9" -r
 xfconf-query -c $kbdshrt -p "/xfwm4/custom/<Alt>F10" -r
 xfconf-query -c $kbdshrt -p "/xfwm4/custom/<Alt>F11" -r
 xfconf-query -c $kbdshrt -p "/xfwm4/custom/<Alt>F12" -r
+xfconf-query -c $kbdshrt -p "/xfwm4/custom/<Alt>q" -r
 xfconf-query -c $kbdshrt -p "/xfwm4/custom/<Super>Tab" -r
 xfconf-query -c $kbdshrt -p "/xfwm4/custom/<Super>j" -r
 xfconf-query -c $kbdshrt -p "/xfwm4/custom/<Super>l" -r

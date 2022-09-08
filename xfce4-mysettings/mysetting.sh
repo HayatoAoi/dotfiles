@@ -6,6 +6,11 @@ kbdshrt='xfce4-keyboard-shortcuts'
 # xfconf-query -c xfce4-keyboard-shortcuts -p "/xfwm4/custom/<Alt>F4" -s fullscreen_key
 
 
+xfconf-query -c $kbdshrt -p "/xfwm4/custom/<Super>KP_Next" -r
+xfconf-query -c $kbdshrt -p "/xfwm4/custom/<Super>KP_Down" -r
+xfconf-query -c $kbdshrt -p "/xfwm4/custom/<Super>KP_Right" -r
+xfconf-query -c $kbdshrt -p "/xfwm4/custom/<Super>KP_Left" -r
+
 xfconf-query -c $kbdshrt -p "/xfwm4/custom/<Super>Tab" -n -t string -s next_workspace_key
 xfconf-query -c $kbdshrt -p "/xfwm4/custom/<Super>l" -n -t string -s tile_right_key
 xfconf-query -c $kbdshrt -p "/xfwm4/custom/<Super>j" -n -t string -s tile_left_key
