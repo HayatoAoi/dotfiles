@@ -24,3 +24,8 @@ xfconf-query -c $kbdshrt -p "/xfwm4/custom/<Alt>Tab" -n -t string -s cycle_windo
 xfconf-query -c $kbdshrt -p "/xfwm4/custom/<Alt>F4" -r
 xfconf-query -c $kbdshrt -p "/xfwm4/custom/<Alt>q" -n -t string -s close_window_key
 
+
+xfconf-query -c xfce4-panel -p "/panels/panel-1/background-style" -s 0
+xfconf-query -c xfce4-panel -p "/panels/dark-mode" -s false
+xfconf-query -c xsettings -p "/Net/ThemeName" -s Adwaita
+
